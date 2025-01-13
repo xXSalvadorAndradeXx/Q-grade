@@ -24,7 +24,7 @@ body {
   }
 
 
-
+/* Estilos para menu */
   nav {
     display: flex;
     justify-content: center;
@@ -71,15 +71,17 @@ nav a:hover::after {
     display: block;
     position: fixed;
     top: 100%;
-  
+    left: 0;
+    width: 100%;
     background-color: rgba(10, 23, 59, 0.95);
     padding: 50px 20px;
     opacity: 0;
     visibility: hidden;
     transform: scale(0.95);
     transition: all 0.3s ease;
-    z-index: 999;
     border-radius: 10px;
+    backdrop-filter: blur(30px);
+    z-index: 1000;
 }
 
 .submenu a {
@@ -89,23 +91,20 @@ nav a:hover::after {
     color: white;
     font-size: 12px;
     padding: 10px 15px;
-    text-align: center;
+    text-align: left;
+    
   
 }
 
 
-/* Mostrar submenú al pasar el cursor */
+
 .menu-item:hover .submenu {
     opacity: 1;
     visibility: visible;
     transform: scale(1);
 }
 
-
-
-
-
-
+/* Parte central de landing page*/
 .hero2 {
     margin-top: 10px; 
     padding: 50px;
@@ -363,5 +362,3 @@ h3 {
     
 
 }
-   
-
