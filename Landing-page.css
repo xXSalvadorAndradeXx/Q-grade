@@ -106,6 +106,21 @@ nav a:hover::after {
 
 
 
+.hero2 {
+    margin-top: 10px; 
+    padding: 50px;
+}
+
+.hero2 h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero2 h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
 
 
 
@@ -205,6 +220,16 @@ input[type="text"] {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.Modulos   {
+    position: relative;
+    padding: 0px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 .card {
     margin-top: 20px;
@@ -237,8 +262,9 @@ input[type="text"] {
 .carousel {
     width: 80%;
     max-width: 800px;
-    margin: 40px auto;
+    margin-top: auto;
     overflow: hidden;
+    margin: auto;
     position: relative;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
@@ -313,4 +339,29 @@ input[type="text"] {
 .carousel-buttons button:focus {
     outline: none;
 }
+
+
+.linea-negra {
+    border: 5px solid rgb(30, 6, 110);
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    
+
+   
+    background-color: rgb(30, 6, 110);
+
+}
+
+h3 {    
+  
+  font-size: 35px;
+    margin-top: 100px;
+  
+    text-align: center;
+    
+
+}
+   
 
