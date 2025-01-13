@@ -242,6 +242,7 @@ input[type="text"] {
     flex: 1 1 calc(30% - 1rem);
     max-width: calc(30% - 1rem);
     transition: transform 0.2s ease-in-out;
+ 
 }
 
 .card:hover {
@@ -380,11 +381,11 @@ h3 {
     display: flex;
     align-items: center;
     background-color: rgb(30, 6, 110); /* Color del rectángulo */
-    border-radius: 15px; /* Bordes más suaves */
+    border-radius: 80px; /* Bordes más suaves */
     width: 100%;
     max-width: 300px; /* Limitar el tamaño máximo de la tarjeta */
     height: 100px;
-    padding: 15px;
+    
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
     transition: transform 0.3s ease; /* Transición para efecto de hover */
 }
@@ -433,4 +434,24 @@ h3 {
         max-width: 100%; /* La tarjeta ocupará todo el ancho disponible */
         height: auto; /* Ajuste la altura de las tarjetas en móviles */
     }
+}
+
+.button1 {
+    margin: 50px auto; /* Centra horizontalmente y ajusta el margen superior e inferior */
+    display: inline-block; /* Hace que el botón mantenga su tamaño contenido */
+    text-decoration: none;
+    background-color: #3b4bff; /* Color del botón */
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button1:hover {
+    background-color: #2a38cc; /* Cambia a un color más oscuro al pasar el mouse */
+    transform: scale(1.05); /* Hace un pequeño aumento al pasar el mouse */
 }
